@@ -1,0 +1,2 @@
+# verilog
+exercise with verilog
