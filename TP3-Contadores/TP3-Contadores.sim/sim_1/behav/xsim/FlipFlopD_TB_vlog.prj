@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../TP3-Contadores.srcs/sources_1/new/FlipFlopD.v" \
+"../../../../TP3-Contadores.srcs/sim_1/new/FlipFlopD_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
