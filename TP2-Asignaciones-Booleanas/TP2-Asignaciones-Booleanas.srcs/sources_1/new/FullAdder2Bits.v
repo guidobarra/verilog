@@ -26,4 +26,9 @@ module FullAdder2Bits(
     output [1:0] S,
     output Cout
     );
+
+wire carryBitOne;
+FullAdderComp u1(.A(A[0]), .B(B[0]), .Cin(1'b0), .S(S[0]), .Cout(carryBitOne));
+FullAdderComp u2(.A(A[1]), .B(B[1]), .Cin(carryBitOne), .S(S[1]), .Cout(Cout));
+
 endmodule

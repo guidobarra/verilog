@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../TP2-Asignaciones-Booleanas.srcs/sources_1/new/FullAdder2Bits.v" \
+"../../../../TP2-Asignaciones-Booleanas.srcs/sources_1/new/FullAdderComp.v" \
+"../../../../TP2-Asignaciones-Booleanas.srcs/sources_1/new/ModuloAND.v" \
+"../../../../TP2-Asignaciones-Booleanas.srcs/sources_1/new/ModuloOR.v" \
+"../../../../TP2-Asignaciones-Booleanas.srcs/sources_1/new/ModuloXOR.v" \
+"../../../../TP2-Asignaciones-Booleanas.srcs/sim_1/new/FullAdder2BitsTB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
