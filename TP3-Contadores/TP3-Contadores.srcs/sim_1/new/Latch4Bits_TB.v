@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 26.04.2024 17:24:29
+// Create Date: 01.05.2024 14:32:56
 // Design Name: 
-// Module Name: FlipFlopT_TB
+// Module Name: Latch4Bits_TB
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,47 +20,67 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module FlipFlopT_TB(
+module Latch4Bits_TB(
 
     );
-reg T, CLK, RESET;
-wire Q;
 
-FlipFlopT u1(
-            .Clock(CLK), 
-            .Reset(RESET), 
-            .T(T), 
-            .Q(Q));
+
+reg [3:0] D;
+reg CLK, RESET;
+wire [3:0] S;
+Latch4Bits u1(.Clock(CLK), .Reset(RESET), .D(D), .S(S));
+
 
 initial begin
     CLK = 0;
-    RESET = 1;
+    RESET = 0;
     
     forever #5 CLK = !CLK;
 end
 
 initial begin
-    T = 1;
+    D = 4'b0001;
     
     #10
-    T = 0;
+    D = 4'b0011;
     
     #10
-    RESET = 0;
+    D = 4'b0111;
     
     #10
-    T = 1;
-    
-    #10
-    T = 0;
+    D = 4'b1111;
     
     #10
     RESET = 1;
     
     #10
-    T = 1;
+    D = 4'b0001;
     
     #10
-    T = 0;
+    D = 4'b0011;
+    
+    #10
+    D = 4'b0111;
+    
+    #10
+    D = 4'b1111;
+    
+    #2
+    RESET = 0;
+    
+    #10
+    D = 4'b100;
+    
+    #10
+    RESET = 1;
+    
+    #10
+    D = 4'b1001;
+    
+    #10
+    D = 4'b1000;
+    
+    #10
+    RESET = 1;
 end
 endmodule

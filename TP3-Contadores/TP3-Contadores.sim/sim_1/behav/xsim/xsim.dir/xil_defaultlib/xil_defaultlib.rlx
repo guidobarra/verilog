@@ -4,4 +4,8 @@ Oct 13 2023
 20:47:58
 D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP3-Contadores/TP3-Contadores.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
 D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP3-Contadores/TP3-Contadores.srcs/sim_1/new/FlipFlopD_TB.v,1714163419,verilog,,,,FlipFlopD_TB,,,,,,,,
-D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP3-Contadores/TP3-Contadores.srcs/sources_1/new/FlipFlopD.v,1714162667,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP3-Contadores/TP3-Contadores.srcs/sim_1/new/FlipFlopD_TB.v,,FlipFlopD,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP3-Contadores/TP3-Contadores.srcs/sim_1/new/Latch4Bits_TB.v,1714584843,verilog,,,,Latch4Bits_TB,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP3-Contadores/TP3-Contadores.srcs/sim_1/new/LatchInst_TB.v,1714574070,verilog,,,,LatchInst_TB,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP3-Contadores/TP3-Contadores.srcs/sources_1/new/FlipFlopD.v,1714162667,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP3-Contadores/TP3-Contadores.srcs/sources_1/new/LatchInst.v,,FlipFlopD,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP3-Contadores/TP3-Contadores.srcs/sources_1/new/Latch4Bits.v,1714584717,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP3-Contadores/TP3-Contadores.srcs/sim_1/new/Latch4Bits_TB.v,,Latch4Bits,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP3-Contadores/TP3-Contadores.srcs/sources_1/new/LatchInst.v,1714571786,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP3-Contadores/TP3-Contadores.srcs/sim_1/new/LatchInst_TB.v,,LatchInst,,,,,,,,
