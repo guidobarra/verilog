@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../TP4-Debouncer.srcs/sources_1/new/ContadorPorBoton.v" \
+"../../../../TP4-Debouncer.srcs/sources_1/new/Count4Bits.v" \
+"../../../../TP4-Debouncer.srcs/sources_1/new/Debouncer.v" \
+"../../../../TP4-Debouncer.srcs/sources_1/new/FlipFlopD.v" \
+"../../../../TP4-Debouncer.srcs/sim_1/new/ContadorPorBoton_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

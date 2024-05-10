@@ -1,0 +1,22 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sim_1/new/ContadorPorBoton_TB.v,1715310977,verilog,,,,ContadorPorBoton_TB,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sim_1/new/Counter100000_TB.v,1715275789,verilog,,,,Counter100000_TB,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sim_1/new/Counter10_TB.v,1715273635,verilog,,,,Counter10_TB,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sim_1/new/DebouncedLED_TB.v,1715298186,verilog,,,,DebouncedLED_TB,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sim_1/new/Debouncer_TB.v,1715309714,verilog,,,,Debouncer_TB,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sim_1/new/FlipFlopD_TB.v,1715269840,verilog,,,,FlipFlopD_TB,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sim_1/new/FlipFlopT_TB.v,1715270131,verilog,,,,FlipFlopT_TB,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sim_1/new/Generador1khz_TB.v,1715284474,verilog,,,,Generador1khz_TB,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/ContadorPorBoton.v,1715316399,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/Count4Bits.v,,ContadorPorBoton,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/Count4Bits.v,1715313457,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/Debouncer.v,,Count4Bits,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/Counter10.v,1715275614,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sim_1/new/Counter10_TB.v,,Counter10,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/Counter100000.v,1715275447,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/FlipFlopT.v,,Counter100000,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/DebouncedLED.v,1715292584,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/FlipFlopD.v,,DebouncedLED,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/Debouncer.v,1715309683,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/FlipFlopD.v,,Debouncer,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/FlipFlopD.v,1715269069,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sim_1/new/ContadorPorBoton_TB.v,,FlipFlopD,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/FlipFlopT.v,1715269260,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sim_1/new/DebouncedLED_TB.v,,FlipFlopT,,,,,,,,
+D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sources_1/new/Generador1khz.v,1715282933,verilog,,D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/TP4-Debouncer/TP4-Debouncer.srcs/sim_1/new/Generador1khz_TB.v,,Generador1khz,,,,,,,,
