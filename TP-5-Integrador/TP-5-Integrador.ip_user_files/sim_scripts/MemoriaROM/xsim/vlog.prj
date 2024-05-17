@@ -1,0 +1,8 @@
+verilog xil_defaultlib  \
+"../../../bd/MemoriaROM/ip/MemoriaROM_blk_mem_gen_0_0/sim/MemoriaROM_blk_mem_gen_0_0.v" \
+"../../../bd/MemoriaROM/sim/MemoriaROM.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

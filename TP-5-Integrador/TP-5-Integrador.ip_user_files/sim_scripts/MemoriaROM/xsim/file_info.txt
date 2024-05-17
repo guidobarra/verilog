@@ -1,0 +1,3 @@
+MemoriaROM_blk_mem_gen_0_0.v,verilog,xil_defaultlib,../../../bd/MemoriaROM/ip/MemoriaROM_blk_mem_gen_0_0/sim/MemoriaROM_blk_mem_gen_0_0.v,
+MemoriaROM.v,verilog,xil_defaultlib,../../../bd/MemoriaROM/sim/MemoriaROM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

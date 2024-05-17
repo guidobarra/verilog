@@ -1,0 +1,4 @@
+blk_mem_gen_v8_4.v,verilog,blk_mem_gen_v8_4_7,../../../../TP-5-Integrador.gen/sources_1/bd/MemoriaROM/ipshared/3c0c/simulation/blk_mem_gen_v8_4.v,
+MemoriaROM_blk_mem_gen_0_0.v,verilog,xil_defaultlib,../../../bd/MemoriaROM/ip/MemoriaROM_blk_mem_gen_0_0/sim/MemoriaROM_blk_mem_gen_0_0.v,
+MemoriaROM.v,verilog,xil_defaultlib,../../../bd/MemoriaROM/sim/MemoriaROM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

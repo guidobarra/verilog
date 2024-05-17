@@ -1,0 +1,9 @@
+verilog xil_defaultlib --include "../../../../TP-5-Integrador.gen/sources_1/bd/ModuloClockingWizard/ipshared/c2c6" \
+"../../../bd/ModuloClockingWizard/ip/ModuloClockingWizard_clk_wiz_0_0/ModuloClockingWizard_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/ModuloClockingWizard/ip/ModuloClockingWizard_clk_wiz_0_0/ModuloClockingWizard_clk_wiz_0_0.v" \
+"../../../bd/ModuloClockingWizard/sim/ModuloClockingWizard.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
