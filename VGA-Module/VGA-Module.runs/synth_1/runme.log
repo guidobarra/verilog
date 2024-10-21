@@ -14,7 +14,7 @@ ECHO est  desactivado.
     ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source VGAModule.tcl -notrace
-create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 466.984 ; gain = 183.582
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 463.230 ; gain = 182.441
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Estudio/Xilinx/Vivado/2023.2/data/ip'.
@@ -30,17 +30,17 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 21688
+INFO: [Synth 8-7075] Helper process launched with PID 12964
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1295.059 ; gain = 440.402
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1293.918 ; gain = 440.145
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'VGAModule' [D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.srcs/sources_1/new/VGAModule.v:23]
-INFO: [Synth 8-6157] synthesizing module 'ClockModule_wrapper' [d:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.gen/sources_1/bd/ClockModule/hdl/ClockModule_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'ClockModule_wrapper' [D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.gen/sources_1/bd/ClockModule/hdl/ClockModule_wrapper.v:13]
 INFO: [Synth 8-6157] synthesizing module 'ClockModule' [d:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.gen/sources_1/bd/ClockModule/synth/ClockModule.v:13]
-INFO: [Synth 8-6157] synthesizing module 'ClockModule_clk_wiz_0_0' [D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.runs/synth_1/.Xil/Vivado-31288-DESKTOP-VCTKVDC/realtime/ClockModule_clk_wiz_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ClockModule_clk_wiz_0_0' (0#1) [D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.runs/synth_1/.Xil/Vivado-31288-DESKTOP-VCTKVDC/realtime/ClockModule_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ClockModule_clk_wiz_0_0' [D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.runs/synth_1/.Xil/Vivado-22584-DESKTOP-VCTKVDC/realtime/ClockModule_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ClockModule_clk_wiz_0_0' (0#1) [D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.runs/synth_1/.Xil/Vivado-22584-DESKTOP-VCTKVDC/realtime/ClockModule_clk_wiz_0_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'ClockModule' (0#1) [d:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.gen/sources_1/bd/ClockModule/synth/ClockModule.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'ClockModule_wrapper' (0#1) [d:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.gen/sources_1/bd/ClockModule/hdl/ClockModule_wrapper.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'ClockModule_wrapper' (0#1) [D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.gen/sources_1/bd/ClockModule/hdl/ClockModule_wrapper.v:13]
 INFO: [Synth 8-6155] done synthesizing module 'VGAModule' (0#1) [D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.srcs/sources_1/new/VGAModule.v:23]
 WARNING: [Synth 8-3917] design VGAModule has port vga_r[3] driven by constant 0
 WARNING: [Synth 8-3917] design VGAModule has port vga_r[2] driven by constant 0
@@ -51,18 +51,18 @@ WARNING: [Synth 8-3917] design VGAModule has port vga_g[2] driven by constant 0
 WARNING: [Synth 8-3917] design VGAModule has port vga_g[1] driven by constant 0
 WARNING: [Synth 8-3917] design VGAModule has port vga_g[0] driven by constant 0
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1403.668 ; gain = 549.012
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1402.359 ; gain = 548.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1403.668 ; gain = 549.012
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1402.359 ; gain = 548.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1403.668 ; gain = 549.012
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1402.359 ; gain = 548.586
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1403.668 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1402.359 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -77,23 +77,23 @@ Parsing XDC File [D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA
 Finished Parsing XDC File [D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1470.680 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1436.031 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 El sistema no puede encontrar la ruta especificada.
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1470.680 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1436.031 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7s25csga324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -103,10 +103,10 @@ Applied set_property CLOCK_BUFFER_TYPE = NONE for Clock. (constraint file  d:/Es
 Applied set_property KEEP_HIERARCHY = SOFT for ClockModule_wrapper/ClockModule_i. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for ClockModule_wrapper/ClockModule_i/clk_wiz_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -144,25 +144,25 @@ WARNING: [Synth 8-3917] design VGAModule has port vga_g[2] driven by constant 0
 WARNING: [Synth 8-3917] design VGAModule has port vga_g[1] driven by constant 0
 WARNING: [Synth 8-3917] design VGAModule has port vga_g[0] driven by constant 0
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -180,37 +180,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -239,16 +239,16 @@ Report Cell Usage:
 |10    |OBUF                  |    14|
 +------+----------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1436.031 ; gain = 582.258
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:32 . Memory (MB): peak = 1470.680 ; gain = 549.012
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 1470.680 ; gain = 616.023
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:27 . Memory (MB): peak = 1436.031 ; gain = 548.586
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1436.031 ; gain = 582.258
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1470.680 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1436.031 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1470.680 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1436.031 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -257,8 +257,8 @@ Synth Design complete | Checksum: be84242
 INFO: [Common 17-83] Releasing license: Synthesis
 30 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:40 . Memory (MB): peak = 1470.680 ; gain = 989.770
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1470.680 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:34 . Memory (MB): peak = 1436.031 ; gain = 958.801
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1436.031 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.runs/synth_1/VGAModule.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file VGAModule_utilization_synth.rpt -pb VGAModule_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Oct  1 17:27:00 2024...
+INFO: [Common 17-206] Exiting Vivado at Sat Oct  5 17:46:57 2024...

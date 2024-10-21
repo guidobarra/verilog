@@ -71,6 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 1
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7s25csga324-1
 
@@ -90,7 +91,7 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  d:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.gen/sources_1/bd/ClockModule/hdl/ClockModule_wrapper.v
+  D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.gen/sources_1/bd/ClockModule/hdl/ClockModule_wrapper.v
   D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.srcs/sources_1/new/VGAModule.v
 }
 add_files D:/Estudio/Lenguajes-descriptivos-de-hardware/repo/verilog/VGA-Module/VGA-Module.srcs/sources_1/bd/ClockModule/ClockModule.bd

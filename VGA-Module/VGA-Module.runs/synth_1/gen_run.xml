@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s25csga324-1" LaunchTime="1727814366" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/VGAModule.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7s25csga324-1" LaunchTime="1728161169" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/VGAModule.dcp">
   <File Type="PA-TCL" Name="VGAModule.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="VGAModule_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="VGAModule_reports.tcl"/>
@@ -66,9 +66,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
     <Step Id="synth_design"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="ClockModule_clk_wiz_0_0"/>
